@@ -1,18 +1,24 @@
 body{
-     margin:0;
+     margin:0px;
+     background-color: rgb(252, 248, 248);
 }
 header{
      display: flex;
      background-color: #2D25A0 ;
      padding-right: 120px;
-     
+     margin-bottom: 100px;     
 }
 .copa-america{
      width: 50%;
      padding-right: 40px;
      color:white;
      font-family: 'Poppins', sans-serif;
-     font-size: 20px;
+     font-size: 25px;
+}
+#banner{
+     padding-top: 100px;
+     padding-left: 156px;
+     
     
 }
 .copa-america a{
@@ -20,20 +26,35 @@ header{
      background-color: #E02C6D;
      padding:10px 15px;
      color:white;
-     font-weight: 300;
-
-    
-}
-#banner{
-     padding-top: 100px;
-     padding-left: 200px;
-     
-    
+     font-weight: 300;  
 }
 .copa-america img{
-     width: 100%;
+     Width :556.01px;
+     Height :438px;
      padding-bottom: 86px;
      padding-top: 67px;
-     padding-right: 123px;
+     padding-right: 120px;
+     padding-left: 70px;
 
+}
+.gallery{
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr;
+     margin-left: 180px;
+     margin-right: 210px;
+     width: 1050px;
+}
+.players{
+     Width :305px;
+     Height :474px;
+     padding:10px;
+     background-color: white;
+     margin-bottom: 45px;
+     box-shadow: 5px 5px 15px rgb(204, 202, 202);
+}
+    
+.players img{
+     Width :300px;
+     Height :256px;
+   
 }
